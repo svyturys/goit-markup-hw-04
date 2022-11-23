@@ -395,6 +395,10 @@ header {
 .social-icon {
   fill: #afb1b8;
 }
+.team-social-link:hover .social-icon,
+.team-social-link:focus .social-icon {
+  fill: #ffffff;
+}
 
 
 /* Clients*/
