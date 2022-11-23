@@ -367,7 +367,7 @@ header {
   align-items: center;
   gap: 10px;
 }
-.team-social-link > .item {
+.team-social-network > .item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,11 +384,14 @@ header {
   background-color: #fff;
 
 }
+
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: #2196f3;
-  
+  fill: #fff;
 }
+
+/* DFGHJHGFGKJHGVHJGFKGFJF__________________ */
 .social-icon {
   fill: #afb1b8;
 }
@@ -478,12 +481,12 @@ header {
 .map:focus {
   color: var(--accent-text-color);
 }
-/* social-ftr */
+
 .ftr {
   display: flex;
   align-items: baseline;
 } 
-/* footer-adress */
+
 .main-footer {
   margin-right: 70px;
 }
@@ -492,7 +495,7 @@ colorffffff */
 .footer-social {
   color: #ffffff;
 }
-/* footer-link-b */
+
 .join-us {
   color: var(--secondary-text-color);
   font-family: 'Roboto';
@@ -503,14 +506,14 @@ colorffffff */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-/* ftr-social-link */
+
 .social-ikonki {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-/* ftr-social-item */
+
 .social-ikonki>.item {
   display: flex;
   justify-content: center;
@@ -518,7 +521,7 @@ colorffffff */
   width: 44px;
   height: 44px;
 }
-/* ftr-social-a */
+
 .social-link-footer {
   display: flex;
   align-items: center;
@@ -528,11 +531,11 @@ colorffffff */
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* ftr-social-icon CYKA HE POBUTb____________________________________ */
-/* .social-icon {
-  
+
+.footer-icon {
   fill: #ffffff;
-} */
+}
+
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: #2196f3;
@@ -604,6 +607,17 @@ colorffffff */
 .menu .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 } 
+.portfolio-a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio-a:hover,
+.portfolio-a:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .card-text {
   padding-top: 20px;
